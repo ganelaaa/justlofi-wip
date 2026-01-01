@@ -1,0 +1,54 @@
+/* JUSTLOFI COLOR THEME */
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+/* GRADIENT BACKGROUND & TEXT COLOR */
+body {
+    background: linear-gradient(135deg, #2b2d42, #5a3f7f, #c084fc);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    color: #f8f8ff;
+    font-family: 'Baloo 2' , cursive;  /* text */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* GRADIENT ANIMATION */
+@keyframes gradientShift {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 3em;
+    margin: 25px;
+    color: #ff9ed6;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 15px 0;
+    color: #a0d8ef;
+}
+
+/* CATEGORIES */
+.category {
+    margin-bottom: 40px;
+}
+
+/* iframe styling */
+iframe {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s;
+}
+
+iframe:hover {
+    transform: scale(1.03); /* hover effect */
+}
