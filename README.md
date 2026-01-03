@@ -3,7 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/Status-WIP-purple)
 ![Static Badge](https://img.shields.io/badge/Language-HTML%2FCSS%2FJS-magenta)
 
-- personalized lo-fi streaming website project #
+- personalized lo-fi streaming website project
 
 ### Projected Special Features
 - Custom Lo-fi theme, added gradient background
